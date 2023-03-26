@@ -1,0 +1,19 @@
+body{background-color:darkblue}
+h1{color:azure}
+#show_sketch{float:right}
+
+canvas{
+    border:5px solid white;
+    border-radius:20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow:1px 1px 38px rgb(250, 5, 5);}
+    to {box-shadow: 1px 1px 38px rgb(255, 86, 24);}
+}
+#score{float:left;color:azure;margin-left:10px}
+#timer{float:right;color:azure;margin-right:10px}
